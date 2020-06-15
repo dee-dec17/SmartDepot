@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/kolusudeekshithayadav/Documents/Programming/Flutter_files/miniProject/smartdepot/ios/Runner/GeneratedPluginRegistrant.m \
+  /Users/kolusudeekshithayadav/Documents/Programming/Flutter_files/miniProject/smartdepot/ios/Runner/GeneratedPluginRegistrant.h \
+  /Users/kolusudeekshithayadav/Documents/Programming/Flutter_files/miniProject/smartdepot/ios/Flutter/Flutter.framework/Modules/module.modulemap \
+  /Users/kolusudeekshithayadav/Documents/Programming/Flutter_files/miniProject/smartdepot/ios/Flutter/Flutter.framework/Headers/FlutterTexture.h \
+  /Users/kolusudeekshithayadav/Documents/Programming/Flutter_files/miniProject/smartdepot/ios/Flutter/Flutter.framework/Headers/FlutterPlugin.h \
+  /Users/kolusudeekshithayadav/Documents/Programming/Flutter_files/miniProject/smartdepot/ios/Flutter/Flutter.framework/Headers/FlutterEngine.h \
+  /Users/kolusudeekshithayadav/Documents/Programming/Flutter_files/miniProject/smartdepot/ios/Flutter/Flutter.framework/Headers/FlutterDartProject.h \
+  /Users/kolusudeekshithayadav/Documents/Programming/Flutter_files/miniProject/smartdepot/ios/Flutter/Flutter.framework/Headers/FlutterBinaryMessenger.h \
+  /Users/kolusudeekshithayadav/Documents/Programming/Flutter_files/miniProject/smartdepot/ios/Flutter/Flutter.framework/Headers/FlutterViewController.h \
+  /Users/kolusudeekshithayadav/Documents/Programming/Flutter_files/miniProject/smartdepot/ios/Flutter/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h \
+  /Users/kolusudeekshithayadav/Documents/Programming/Flutter_files/miniProject/smartdepot/ios/Flutter/Flutter.framework/Headers/FlutterPlatformViews.h \
+  /Users/kolusudeekshithayadav/Documents/Programming/Flutter_files/miniProject/smartdepot/ios/Flutter/Flutter.framework/Headers/FlutterHeadlessDartRunner.h \
+  /Users/kolusudeekshithayadav/Documents/Programming/Flutter_files/miniProject/smartdepot/ios/Flutter/Flutter.framework/Headers/FlutterChannels.h \
+  /Users/kolusudeekshithayadav/Documents/Programming/Flutter_files/miniProject/smartdepot/ios/Flutter/Flutter.framework/Headers/FlutterCallbackCache.h \
+  /Users/kolusudeekshithayadav/Documents/Programming/Flutter_files/miniProject/smartdepot/ios/Flutter/Flutter.framework/Headers/FlutterCodecs.h \
+  /Users/kolusudeekshithayadav/Documents/Programming/Flutter_files/miniProject/smartdepot/ios/Flutter/Flutter.framework/Headers/FlutterMacros.h \
+  /Users/kolusudeekshithayadav/Documents/Programming/Flutter_files/miniProject/smartdepot/ios/Flutter/Flutter.framework/Headers/FlutterAppDelegate.h \
+  /Users/kolusudeekshithayadav/Documents/Programming/Flutter_files/miniProject/smartdepot/ios/Flutter/Flutter.framework/Headers/Flutter.h

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1076418078493",
+    "firebase_url": "https://smartdepot-4cc47.firebaseio.com",
+    "project_id": "smartdepot-4cc47",
+    "storage_bucket": "smartdepot-4cc47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076418078493:android:2dee3aa509303273ca23f4",
+        "android_client_info": {
+          "package_name": "com.example.smartdepot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076418078493-90gbesbjeiu70ji97060hkfv35c9gk5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNIq0jaHtdZrmMCeCRR-wOTLBwkPy6-5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076418078493-90gbesbjeiu70ji97060hkfv35c9gk5m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1076418078493-ko5jls78jn9iq7b1dqerrbqcpt6d17e7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.smartdepot"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

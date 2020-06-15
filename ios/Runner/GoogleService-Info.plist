@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1076418078493-ko5jls78jn9iq7b1dqerrbqcpt6d17e7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1076418078493-ko5jls78jn9iq7b1dqerrbqcpt6d17e7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyARQImRV3qkLPnK8llxEjNqvQ8PO4hi4K0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1076418078493</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.smartdepot</string>
+	<key>PROJECT_ID</key>
+	<string>smartdepot-4cc47</string>
+	<key>STORAGE_BUCKET</key>
+	<string>smartdepot-4cc47.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1076418078493:ios:d30b5eaa6aac0f2fca23f4</string>
+	<key>DATABASE_URL</key>
+	<string>https://smartdepot-4cc47.firebaseio.com</string>
+</dict>
+</plist>
