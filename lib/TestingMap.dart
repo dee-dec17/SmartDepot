@@ -4,7 +4,6 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong/latlong.dart';
-import 'package:geolocation/geolocation.dart';
 
 
 class TestingMap extends StatefulWidget {
@@ -18,18 +17,11 @@ class _TestingMapState extends State<TestingMap> {
   var curLat;
   var curLong;
 
-  getPermission() async {
-    GeolocationResult subscription = Geolocation.currentLocation(accuracy: LocationAccuracy.best).listen((result){
-    if(result.isSuccessful){
-      curLat = result.location.latitude;
-      curLong = result.location.longitude;
-    }
-  }) as GeolocationResult;
-  }
+
+  
 
   @override
   Widget build(BuildContext context) {
-    getPermission();
     return  Scaffold(
           appBar: AppBar(
             title: Text("Shop Location"),

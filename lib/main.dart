@@ -1,7 +1,9 @@
+import 'package:flutter/services.dart';
+import 'dart:io';
+import 'package:geolocator/geolocator.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:smartdepot/Data.dart';
 import 'package:smartdepot/Sample.dart';
-import 'package:smartdepot/TestingMap.dart';
 import 'UserLogin.dart';
 import 'DealerLogin.dart';
 import 'Dealer.dart';
@@ -10,10 +12,16 @@ import 'Data.dart';
 
 
 void main() {
+  FlutterError.onError = (FlutterErrorDetails details) {
+    FlutterError.dumpErrorToConsole(details);
+        if (kReleaseMode)
+      exit(1);
+  };
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -22,12 +30,10 @@ class MyApp extends StatelessWidget {
       routes: <String,WidgetBuilder>{
         "/UserLogin": (BuildContext context) => UserLogin(),
         "/DealerLogin": (BuildContext context) => DealerLogin(),
-        "/Dealer" : (BuildContext context) => Dealer(),
+        "/Dealer" : (BuildContext context) => Dealer(shopId: null),
         "/User" : (BuildContext context) => User(),
         "/HomePage" : (BuildContext context) => HomePage(),
-        "/Sample" : (BuildContext context) => SampleMap(lat: null, long: null,),
-        //"/TestingMap" : (BuildContext context) => TestingMap(),
-
+        "/Sample" : (BuildContext context) => SampleMap(call1: null, call2: null, call3 : null),
       },
     );
   }
@@ -39,9 +45,14 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+
   @override
   Widget build(BuildContext context) {
-
+    print(shopData.length);
+    setState(() {
+      getUserLocation();
+      findNearbyShops();
+    });
     return Scaffold(
       backgroundColor: Colors.cyan,
       appBar: AppBar(

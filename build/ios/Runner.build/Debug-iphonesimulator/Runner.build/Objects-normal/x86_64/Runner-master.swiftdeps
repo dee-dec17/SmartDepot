@@ -1,5 +1,0 @@
-version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
-options: "c26205d94e993b79181865b33493b44c"
-build_time: [1592055860, 761246000]
-inputs:
-  "/Users/kolusudeekshithayadav/Documents/Programming/Flutter_files/miniProject/smartdepot/ios/Runner/AppDelegate.swift": [1591542311, 441451063]

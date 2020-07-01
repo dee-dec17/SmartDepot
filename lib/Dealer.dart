@@ -1,13 +1,27 @@
 import 'package:flutter/material.dart';
-
+import 'Data.dart';
 class Dealer extends StatefulWidget {
-  
+  var shopId;
+  Dealer({@required this.shopId});
   @override
-  _DealerState createState() => _DealerState();
+  _DealerState createState() => _DealerState(shopId:shopId);
 
 }
 
 class _DealerState extends State<Dealer> {
+  var shopId;
+  _DealerState({@required this.shopId});
+  bool _status = true;
+
+  String stat ;
+
+  // Toggles the password show status
+  void _toggle() {
+    setState(() {
+      _status = !_status;
+      updateShopStatus(shopId,_status);
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -40,18 +54,19 @@ class _DealerState extends State<Dealer> {
                       child: Image.asset("images/logo.png"),
                     )
                   ),
-                  Padding(
-                padding: const EdgeInsets.all(50.0),
-                child: RaisedButton(
-                  child: Text("BUSY"),
+                  Padding(padding: EdgeInsets.all(50.0),
+                  child :RaisedButton(
                   color: Colors.purple,
-                  onPressed: () => {},
+                  onPressed: () {_toggle();
+                  },
+                  child: new Text(_status ? "Busy" : "Available"),
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10.0),
                       side: BorderSide(color: Colors.purple)),
                   textColor: Colors.white,
-                  ),
-              ),
+                  )
+                ),
+                Text("Shop is currently : ${shopData[shopId][2]}"),
             ],
           ),
         ),
